@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Response</title>
 </head>
 <body>
-
+<h1>Привет <%= request.getParameter("name")%>!</h1>
+<h1>Ваш возраст: <%= request.getParameter("age")%></h1>
+<h1>Ваш город: <%= request.getParameter("city")%></h1>
 </body>
 </html>
